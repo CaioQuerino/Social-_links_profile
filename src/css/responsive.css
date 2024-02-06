@@ -128,16 +128,15 @@ li a{
 @media(max-width:390px){
     .home{
         background-color: #141414;
-        height: 100vh;
-    }
+        height: 100vh;}
 
-        
-    }
+
+    
     
     .content{
         height: 606px;
         width: 344.92px;
-        padding: 0px 0px 50px 0px;
+        padding: 0px 0px px 0px;
     }
     
     
