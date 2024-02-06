@@ -1,78 +1,182 @@
+
+.home{
+    background-color: #141414;
+    height: 100vh;
+}
+
 .container{
-    background-color: hsl(0, 0%, 8%);
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.content{
+    background-color: #1f1f1f;
+    height: 642px;
+    width: 403px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
 
-    min-height: 100vh;
-    display: flex; 
-    justify-content: center;
+.container .content .photo{
+    width: 94px;
+    height: 95px;
+    border-radius: 200px;
+    margin-bottom: 30px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container .content .name{
+    font-family: 'inter', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+} 
+
+.container .content .local{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c5f82a;
+}
+
+.container .content h4{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 26px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-.container .content{
-    background-color:  hsl(0, 0%, 12%);
-    max-width: 300px;
-    border-radius: 8px;
+.button1, .button2, .button3, .button4{
+    background-color: #333;
+    margin-bottom: 16px;
+    width: 315px;
+    height: 48px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 30px;
-    
-}
-
-.container .content .foto{
-    max-width: 150px;
-    border-radius: 200px;
-    margin: 0 auto;
-}
-
-.container .content .name, h4{
-    color: hsl(0, 0%, 100%);
-}
-
-.container .content .local{
-    color: hsl(75, 94%, 57%);
-    margin-bottom: 20px
-}
-
-
-.container .content button{
-    background-color: hsl(0, 0%, 20%);
-    border-radius: 5px;
-    margin-bottom: 8px;
-    padding: 8px 100px 8px 100px;
-    border: none;
+    justify-content: center;
+    align-items: center;
     transition: .3s ease-in;
+
 }
 
-.container .content button:hover{
-    background-color: hsl(75, 94%, 57%);
+.button5{
+    background-color: #333;
+    margin-bottom: 0px;
+    width: 315px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in;
+
 }
 
-.container .content button:hover a{
-    color: black
+
+.container .content .button1:hover{
+    background-color: #c5f82a;
+}
+.container .content .button2:hover{
+    background-color: #c5f82a;
+}  
+.container .content .button3:hover{
+    background-color: #c5f82a;
+}
+.container .content .button4:hover{
+    background-color: #c5f82a;
+} 
+.container .content .button5:hover{
+    background-color: #c5f82a;
+} 
+
+.button1, .button2, .button3, .button4, .button5, li a:hover{
+    color: #000;
 }
 
-.container .content button a{
-    color:  hsl(0, 0%, 100%);
-    
+li a{
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
 }
 
-    .attribution { font-size: 11px; text-align: center; background-color:  hsl(0, 0%, 12%);}
-    .attribution a { color: hsl(228, 45%, 44%); }
 
-@media(max-width:375px){
-    .container .content button{
-        background-color: hsl(0, 0%, 20%);
-        border-radius: 5px;
-        margin-bottom: 8px;
-        padding: 8px 80px 8px 80px;
-        border: none;
-        transition: .3s ease-in;
+@media(max-width:390px){
+    .home{
+        background-color: #141414;
+        height: 100vh;
     }
 
-    .attribution { font-size: 11px; text-align: center; background-color:  hsl(0, 0%, 12%); }
-    .attribution a { color: hsl(228, 45%, 44%); }
+        
+    }
     
+    .content{
+        height: 606px;
+        width: 344.92px;
+        padding: 0px 0px 50px 0px;
+    }
+    
+    
+    .container .content .name{
+        font-family: 'inter', sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+        color: white;
+    } 
+    
+    .container .content .local{
+        font-family: 'inter', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: #c5f82a;
+    }
+    
+    .container .content h4{
+        font-family: 'inter', sans-serif;
+        font-size: 14px;
+        font-weight: 200;
+        color: #fff;
+        margin-top: 35px;
+        margin-bottom: 26px;
+    }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .button1, .button2, .button3, .button4{
+        width: 273.83px;
+        height: 44.36px;
+    }
+    
+    .button5{
+        width: 273.83px;
+        height: 44.36px;
+    }
+
 }
